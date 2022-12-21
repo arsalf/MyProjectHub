@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center h-[100vh] flex-col bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white hover:bg-[url('/MyPhoto.jpg')] bg-cover hover:animate-in hover:fade-in hover:duration-1000">
       <Head>
-        <title>Arsal Fadilah | Portfolio</title>
+        <title>Home | Arsal Fadilah Portfolio Project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
