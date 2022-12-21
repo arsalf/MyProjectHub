@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <FontAwesomeIcon icon={faHeart} className="mx-2 h-5 text-red-500" /> by{' Me '}
+        Made with <FontAwesomeIcon icon={faHeart} className="mx-2 h-5 text-red-500" />
       </footer>
     </>
   )

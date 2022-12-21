@@ -1,3 +1,3 @@
-export default function Header({ title }) {
-  return <h1 className="title text-4xl">{title}</h1>
+export default function Header({ children }) {
+  return <h1 className="md:text-4xl text-3xl">{children}</h1>
 }
