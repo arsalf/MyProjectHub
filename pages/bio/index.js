@@ -29,7 +29,7 @@ export default function Bio() {
                         <h1 className="text-4xl mb-3">
                             Biodata
                         </h1>
-                        <p>I am an informatics engineering graduate candidate at Bandung Polytechnic as well as a content creator on the Programming Nusantara youtube channel<br /><br />I have worked on several large projects such as e-commerce and government website. I also learned and make a lot about machine learning such as making Whatsapp bots and color predictions.<br /><br />I want to tell you, I only have two GitHub accounts. Exist :<br />- github.com/arsalf (work account)<br />- github.com/arsalfadilah (student account)<br />So you can know everything I make.
+                        <p>I am an informatics engineering graduate candidate at Bandung Polytechnic as well as a content creator on the Programming Nusantara youtube channel<br /><br />I have worked on several large projects such as e-commerce and government website. I also learned and make a lot about machine learning such as making Whatsapp bots and color predictions.<br /><br />I want to tell you, I only have two GitHub accounts. Exist :<br />- <a href="https://github.com/arsalf" className='text-blue-500 hover:text-blue-600' target="_blank" rel="noreferrer">github.com/arsalf</a> (work account)<br />- <a href="https://github.com/arsalfadilah" className='text-blue-500 hover:text-blue-600' target="_blank" rel="noreferrer">github.com/arsalfadilah</a> (student account)<br />So you can know everything I make.
                         </p>
                         <p>
                             ( ͡° ͜ʖ ͡°( ಠ ͜ʖ ಠ ) ͡° ͜ʖ ͡°)
@@ -44,7 +44,7 @@ export default function Bio() {
                             <a href="https://www.youtube.com/channel/UCHxt5WpcIsuzBrlHXAAKujg" target="_blank" rel="noreferrer" className="mr-5">
                                 <FontAwesomeIcon icon={faYoutube} className="w-6 h-6" />
                             </a>
-                            <a href="https://github.com/arsalfadilah" target="_blank" rel="noreferrer" className="mr-5">
+                            <a href="https://github.com/arsalf" target="_blank" rel="noreferrer" className="mr-5">
                                 <FontAwesomeIcon icon={faGithub} className="w-6 h-6" />
                             </a>
                         </div>
