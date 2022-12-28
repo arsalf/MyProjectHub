@@ -29,7 +29,7 @@ export default function Bio() {
                         <h1 className="text-4xl mb-3">
                             Biodata
                         </h1>
-                        <p>I am an informatics engineering student in Bandung Polytechnic as well as a content creator on the Programming Nusantara youtube channel<br /><br />I have worked on several large projects such as e-commerce and web cms. <br />And I've also learned a lot about machine learning such as making Whatsapp bots and color predictions.<br /><br />I want to tell you, I only have two GitHub accounts. Exist :<br />- github.com/arsalf (work account)<br />- github.com/arsalfadilah (student account)<br />So you can know everything I make.
+                        <p>I am an informatics engineering graduate candidate in Bandung Polytechnic as well as a content creator on the Programming Nusantara youtube channel<br /><br />I have worked on several large projects such as e-commerce and web cms. <br />And I've also learned a lot about machine learning such as making Whatsapp bots and color predictions.<br /><br />I want to tell you, I only have two GitHub accounts. Exist :<br />- github.com/arsalf (work account)<br />- github.com/arsalfadilah (student account)<br />So you can know everything I make.
                         </p>
                         <p>
                             ( ͡° ͜ʖ ͡°( ಠ ͜ʖ ಠ ) ͡° ͜ʖ ͡°)
