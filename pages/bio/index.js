@@ -71,7 +71,7 @@ export default function Bio() {
                 </div>
 
                 <div className="container mx-auto px-4">
-                    <h1 className="text-4xl text-center mb-3">My Project</h1>
+                    <h1 className="text-4xl text-center mb-3">My Projects</h1>
                     <div className="flex flex-wrap">
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
                             <Card
