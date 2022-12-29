@@ -10,7 +10,7 @@ export default function Bio() {
         <div className="bg-[#353535] text-white">
             <Head>
                 <title>Biodata | Arsal Fadilah Portfolio Project</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo-geo-mini.ico" />
             </Head>
 
             <main className="container mx-auto p-4">

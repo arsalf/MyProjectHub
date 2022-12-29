@@ -8,7 +8,7 @@ export default function Profile() {
         <div className="flex justify-center items-center h-[100vh] bg-[#353535] text-white flex-col">
             <Head>
                 <title>Profile | Arsal Fadilah Portfolio Project</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo-geo-mini.ico" />
             </Head>
 
             <main className="flex flex-col items-center justify-center w-full flex-1 px-10 text-center cursor-default">

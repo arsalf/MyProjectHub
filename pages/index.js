@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex justify-center items-center h-[100vh] flex-col md:bg-[url('/MyPhoto.jpg')] text-white bg-[url('/potraitPhoto.jpeg')] bg-cover">
       <Head>
         <title>Home | Arsal Fadilah Portfolio Project</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo-geo-mini.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-10 text-center cursor-default">
