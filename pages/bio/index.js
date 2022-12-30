@@ -79,7 +79,7 @@ export default function Bio() {
                     </div>
                 </div>
 
-                <div className="container mx-auto px-0 md:px-4">
+                <div className="container mx-auto">
                     <h1 className="text-4xl text-center mb-6">My Projects</h1>
                     <div className="flex flex-wrap">
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
@@ -159,6 +159,24 @@ export default function Bio() {
                                 {
                                     title: 'L-Tix',
                                     subtitle: 'Bioskop Ticketing',
+                                    image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
+                                }
+                            } />
+                        </div>
+                        <div className="w-full md:w-6/12 lg:w-6/12 px-4 mb-5">
+                            <ImageCaption children={
+                                {
+                                    title: 'Jalu : The Lost Queen',
+                                    subtitle: 'PC Game',
+                                    image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
+                                }
+                            } />
+                        </div>
+                        <div className="w-full md:w-6/12 lg:w-6/12 px-4 mb-5">
+                            <ImageCaption children={
+                                {
+                                    title: 'Compute : The Holysium Portal',
+                                    subtitle: 'PC Game',
                                     image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
                                 }
                             } />
