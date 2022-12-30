@@ -1,8 +1,8 @@
-import CardImage from '@components/CardImage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { Card, Carousel } from 'flowbite-react';
+import { Carousel } from 'flowbite-react';
 import Head from 'next/head';
+import ImageCaption from '@components/ImageCaption';
 
 export default function Bio() {
 
@@ -21,9 +21,9 @@ export default function Bio() {
                         <p className="text-gray-400" >Fullstack Developer</p>
                     </div>
                 </div>
-                
+
                 <hr className="border-1 border-gray-300 mb-6" />
-                
+
                 <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center mb-6 lg:mb-10">
                     <div className="border-2 border-white h-full p-4">
                         <h1 className="text-4xl mb-3">
@@ -51,7 +51,7 @@ export default function Bio() {
                     </div>
 
                     <div className="mb-5 lg:mb-0 lg:ml-5 w-full lg:h-auto">
-                        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+                        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 mb-6">
                             <Carousel slide={false}>
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <div className='w-full h-full'>
@@ -67,47 +67,101 @@ export default function Bio() {
                                 </div>
                             </Carousel>
                         </div>
-                    </div>                    
+
+                        <div className='border-2 border-white'>
+                            {/* my quotes */}
+                            <div className="flex items-center justify-center h-20 px-6">
+                                <p className="text-base md:text-xl text-center italic">
+                                    "I am not a great programmer; I am just a good programmer with great habits."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="container mx-auto px-4">
-                    <h1 className="text-4xl text-center mb-3">My Projects</h1>
+                <div className="container mx-auto px-0 md:px-4">
+                    <h1 className="text-4xl text-center mb-6">My Projects</h1>
                     <div className="flex flex-wrap">
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <Card
-                                imgAlt="Meaningful alt text for an image that is not purely decorative"
-                                imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
-                            >
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquisitions 2021
-                                </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400">
-                                    Here are the biggest enterprise technology acquisitions of 2021 so
-                                    far, in reverse chronological order.
-                                </p>
-                                <a href="#" className="text-blue-500 inline-flex items-center mt-3">
-                                    Learn More
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="M5 12h14"></path>
-                                        <path d="M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </Card>
+                            <ImageCaption children={
+                                {
+                                    title: 'Pasimeru',
+                                    subtitle: 'E-Commerce',
+                                    image: 'https://flowbite.com/docs/images/blog/image-1.jpg',
+                                }
+                            } />
                         </div>
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <CardImage />
+                            <ImageCaption children={
+                                {
+                                    title: 'BPKAD',
+                                    subtitle: 'Government Website',
+                                    image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
+                                }
+                            } />
                         </div>
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <CardImage />
+                            <ImageCaption children={
+                                {
+                                    title: 'Progantara',
+                                    subtitle: 'Content Management System',
+                                    image: 'https://flowbite.com/docs/images/blog/image-2.jpg',
+                                }
+                            } />
                         </div>
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <CardImage />
+                            <ImageCaption children={
+                                {
+                                    title: 'Absensi Akademik',
+                                    subtitle: 'School Precense App',
+                                    image: 'https://flowbite.com/docs/images/blog/image-1.jpg',
+                                }
+                            } />
                         </div>
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <CardImage />
+                            <ImageCaption children={
+                                {
+                                    title: 'SPP Online',
+                                    subtitle: 'School Fee Management',
+                                    image: 'https://flowbite.com/docs/images/blog/image-2.jpg',
+                                }
+                            } />
                         </div>
                         <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
-                            <CardImage />
+                            <ImageCaption children={
+                                {
+                                    title: 'SPMB Online',
+                                    subtitle: 'Student Admissions System',
+                                    image: 'https://flowbite.com/docs/images/blog/image-1.jpg',
+                                }
+                            } />
+                        </div>
+                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                            <ImageCaption children={
+                                {
+                                    title: 'WAbot',
+                                    subtitle: 'Whatsapp Bot',
+                                    image: 'https://flowbite.com/docs/images/blog/image-1.jpg',
+                                }
+                            } />
+                        </div>
+                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                            <ImageCaption children={
+                                {
+                                    title: 'Love Color',
+                                    subtitle: 'Color Prediction',
+                                    image: 'https://flowbite.com/docs/images/blog/image-2.jpg',
+                                }
+                            } />
+                        </div>
+                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                            <ImageCaption children={
+                                {
+                                    title: 'L-Tix',
+                                    subtitle: 'Bioskop Ticketing',
+                                    image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
+                                }
+                            } />
                         </div>
                     </div>
                 </div>
