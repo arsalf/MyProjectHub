@@ -81,8 +81,8 @@ export default function Bio() {
 
                 <div className="container mx-auto">
                     <h1 className="text-4xl text-center mb-6">My Projects</h1>
-                    <div className="flex flex-wrap">
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                    <div className="grid grid-cols-12 gap-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Pasimeru',
@@ -91,7 +91,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'BPKAD',
@@ -100,7 +100,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Progantara',
@@ -109,7 +109,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Absensi Akademik',
@@ -118,7 +118,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'SPP Online',
@@ -127,7 +127,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'SPMB Online',
@@ -136,7 +136,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'WAbot',
@@ -145,7 +145,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Love Color',
@@ -154,7 +154,7 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-4/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'L-Tix',
@@ -163,16 +163,16 @@ export default function Bio() {
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-6/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Jalu : The Lost Queen',
                                     subtitle: 'PC Game',
-                                    image: 'https://flowbite.com/docs/images/blog/image-3.jpg',
+                                    image: 'https://www.pngitem.com/pimgs/m/6-65089_facebook-instant-games-logo-video-game-logo-png.png',
                                 }
                             } />
                         </div>
-                        <div className="w-full md:w-6/12 lg:w-6/12 px-4 mb-5">
+                        <div className="col-span-12 md:col-span-4 2xl:col-span-3">
                             <ImageCaption children={
                                 {
                                     title: 'Compute : The Holysium Portal',

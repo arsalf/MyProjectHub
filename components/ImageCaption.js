@@ -2,7 +2,7 @@ export default function ImageCaption({ children, ...props }) {
     return (
         <a href="#">
             <figure className="relative cursor-pointer hover:scale-[1.02] animate-in ease-in-out duration-100">
-                <img className="rounded-lg" src={
+                <img className="rounded-lg object-cover h-64 w-full" src={
                     children.image
                 } alt="image description" />
                 <figcaption className="absolute bottom-0 px-4 py-2 text-lg text-white bg-black bg-opacity-75  hover:bg-opacity-100 text-center w-full rounded-t-lg">
